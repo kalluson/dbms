@@ -15,3 +15,17 @@ insert into areas values(radius, area);
 radius:=radius+1;
 end loop;
 end;
+
+-- Input and Output
+select * from areas;
+
+    RADIUS        AREA
+   ---------    --------
+      5           78.5
+      6           113.04
+      7           153.86
+      8           200.96
+      9           254.34
+      10          314
+      
+6 rows selected.
